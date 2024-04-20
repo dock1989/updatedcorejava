@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class First {
 	
-	int a,b,c;
+	int a,b,c,d;
 	
 	public void getInput() {
 		Scanner scanner = new Scanner(System.in);
@@ -13,7 +13,9 @@ public class First {
 		a = scanner.nextInt();
 		System.out.println("Enter second number");
 		b = scanner.nextInt();
-		c = a + b;
+		System.out.println("Enter Third number");
+		c = scanner.nextInt();
+		d = a + b + c;
 		
 	}
 	
