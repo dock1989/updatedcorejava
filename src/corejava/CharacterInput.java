@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CharacterInput {
 	char a;
+// coment added
 	public void checkVowel() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter any character");
